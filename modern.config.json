@@ -1,0 +1,195 @@
+{
+  "autoLoadPlugins": false,
+  "runtime": {
+    "router": true
+  },
+  "runtimeByEntries": {},
+  "source": {
+    "alias": {
+      "styled-components": "/home/runner/work/modern-test/modern-test/node_modules/.pnpm/registry.npmjs.org+styled-components@5.3.9_react-dom@18.2.0_react-is@18.2.0_react@18.2.0/node_modules/styled-components/dist/styled-components.cjs.js",
+      "@modern-js/utils/ssr": "/home/runner/work/modern-test/modern-test/node_modules/.pnpm/registry.npmjs.org+@modern-js+utils@2.12.0_react-dom@18.2.0_react-router-dom@6.10.0_react@18.2.0/node_modules/@modern-js/utils/dist/ssr.js",
+      "@modern-js/runtime/plugins": "/home/runner/work/modern-test/modern-test/node_modules/.modern-js/.runtime-exports/plugins.js",
+      "@_modern_js_internal": "/home/runner/work/modern-test/modern-test/node_modules/.modern-js",
+      "@_modern_js_src": "/home/runner/work/modern-test/modern-test/src",
+      "@": "/home/runner/work/modern-test/modern-test/src",
+      "@shared": "/home/runner/work/modern-test/modern-test/shared"
+    },
+    "globalVars": {
+      "process.env.IS_REACT18": "true"
+    },
+    "preEntry": [],
+    "compileJsDataURI": true,
+    "define": {},
+    "enableAsyncEntry": false,
+    "disableDefaultEntries": false,
+    "entriesDir": "./src",
+    "configDir": "./config",
+    "include": [
+      "/home/runner/work/modern-test/modern-test/node_modules/.modern-js"
+    ]
+  },
+  "tools": {},
+  "output": {
+    "distPath": {
+      "root": "dist",
+      "js": "static/js",
+      "css": "static/css",
+      "svg": "static/svg",
+      "font": "static/font",
+      "html": "",
+      "wasm": "static/wasm",
+      "image": "static/image",
+      "media": "static/media",
+      "server": "bundles",
+      "worker": "worker"
+    },
+    "filename": {},
+    "charset": "ascii",
+    "polyfill": "entry",
+    "dataUriLimit": {
+      "svg": 10000,
+      "font": 10000,
+      "image": 10000,
+      "media": 10000
+    },
+    "legalComments": "linked",
+    "cleanDistPath": true,
+    "svgDefaultExport": "url",
+    "disableCssExtract": false,
+    "disableMinimize": false,
+    "disableSourceMap": true,
+    "disableTsChecker": false,
+    "disableFilenameHash": false,
+    "disableCssModuleExtension": false,
+    "disableInlineRuntimeChunk": false,
+    "enableAssetFallback": false,
+    "enableAssetManifest": false,
+    "enableLatestDecorators": false,
+    "enableCssModuleTSDeclaration": false,
+    "enableInlineScripts": false,
+    "enableInlineStyles": false,
+    "disableNodePolyfill": true,
+    "ssg": true,
+    "assetPrefix": "./"
+  },
+  "server": {
+    "baseUrl": "/",
+    "port": 8080
+  },
+  "dev": {
+    "hmr": true,
+    "https": false,
+    "assetPrefix": "/",
+    "startUrl": false,
+    "progressBar": true,
+    "host": "0.0.0.0"
+  },
+  "html": {
+    "inject": "head",
+    "mountId": "root",
+    "crossorigin": false,
+    "disableHtmlFolder": true,
+    "title": "resume",
+    "meta": {
+      "charset": {
+        "charset": "utf-8"
+      },
+      "viewport": "width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+      "http-equiv": {
+        "http-equiv": "x-ua-compatible",
+        "content": "ie=edge"
+      },
+      "renderer": "webkit",
+      "layoutmode": "standard",
+      "imagemode": "force",
+      "wap-font-scale": "no",
+      "format-detection": "telephone=no"
+    }
+  },
+  "plugins": [
+    {
+      "name": "@modern-js/app-tools",
+      "post": [
+        "@modern-js/plugin-initialize",
+        "@modern-js/plugin-analyze",
+        "@modern-js/plugin-ssr",
+        "@modern-js/plugin-document",
+        "@modern-js/plugin-state",
+        "@modern-js/plugin-router",
+        "@modern-js/plugin-router-v5",
+        "@modern-js/plugin-polyfill"
+      ],
+      "registerHook": {
+        "modifyEntryExport": {},
+        "modifyEntryImports": {},
+        "modifyEntryRuntimePlugins": {},
+        "modifyEntryRenderFunction": {},
+        "modifyAsyncEntry": {},
+        "modifyFileSystemRoutes": {},
+        "modifyServerRoutes": {},
+        "htmlPartials": {},
+        "beforeGenerateRoutes": {},
+        "addDefineTypes": {},
+        "collectServerPlugins": {},
+        "beforeDev": {},
+        "afterDev": {},
+        "beforeCreateCompiler": {},
+        "afterCreateCompiler": {},
+        "beforePrintInstructions": {},
+        "beforeBuild": {},
+        "afterBuild": {},
+        "beforeDeploy": {},
+        "afterDeploy": {},
+        "beforeRestart": {},
+        "registerDev": {},
+        "beforeDevTask": {},
+        "registerBuildPlatform": {},
+        "beforeBuildPlatform": {}
+      },
+      "usePlugins": [
+        {
+          "name": "@modern-js/plugin-initialize"
+        },
+        {
+          "name": "@modern-js/plugin-analyze"
+        },
+        {
+          "name": "@modern-js/plugin-lint"
+        }
+      ]
+    },
+    {
+      "name": "@modern-js/plugin-ssg",
+      "pre": [
+        "@modern-js/plugin-server",
+        "@modern-js/plugin-bff"
+      ]
+    }
+  ],
+  "builderPlugins": [],
+  "_raw": {
+    "output": {
+      "ssg": true,
+      "disableSourceMap": true,
+      "assetPrefix": "./",
+      "distPath": {
+        "html": ""
+      }
+    },
+    "html": {
+      "title": "resume",
+      "disableHtmlFolder": true
+    },
+    "runtime": {
+      "router": true
+    },
+    "plugins": [
+      "[Circular 0]",
+      "[Circular 1]"
+    ]
+  },
+  "bff": {},
+  "testing": {},
+  "deploy": {},
+  "performance": {}
+}

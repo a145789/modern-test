@@ -1,0 +1,1 @@
+(self.webpackChunkwebpack=self.webpackChunkwebpack||[]).push([["src_routes_page_tsx"],{77010:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),Object.defineProperty(t,"default",{enumerable:!0,get:function(){return u}});var r=n("52173"),u=function(){return(0,r.jsx)("div",{children:"123"})}}}]);
